@@ -8,6 +8,22 @@
     .carousel-caption {
         display: none;
     }
+
+}
+
+@media (min-width: 601px) {
+
+    .navbar-nav {
+        display: table;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-nav > li {
+        float: none;
+        display: table-cell;
+        text-align: center;
+    }
 }
 
 @font-face {
@@ -180,7 +196,7 @@ footer {
 
 .banner {
     width: auto;
-    height: 126px;
+    height: 170px;
     padding: 10px 0px 10px 15px;
     display: block;
     margin-left: auto;
