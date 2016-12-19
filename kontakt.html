@@ -4,6 +4,7 @@
     <title>IWIN services s.r.o. - Index</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -41,7 +42,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Úvod</a></li>
-                <li><a href="uchadzaci.html">Pre uchádzačov</a></li>
+                <li><a href="uchadzaci.html">Pre uchádzačov - ponuky práce</a></li>
                 <li><a href="firmy.html">Pre firmy</a></li>
                 <li><a href="referencie.html">Referencie</a></li>
                 <li class="active"><a href="kontakt.html">Kontakt</a></li>
@@ -59,51 +60,7 @@
         </div>
     </div>
     <div class="row last-row" style="margin-top:20px;">
-        <div class="col-sm-2">
-            <img src="img/girl.jpg" class="img-responsive img-centrovany"/>
-            <div class="text-center kontakt">
-                <span class="nadpis-gray">Jana Baníková</span><br/>
-                <span class="nadpis-gray">pozícia</span><br/>
-                0908 291 180<br/>
-                job@iwin.sk
-            </div>
-            <img src="img/girl.jpg" class="img-responsive img-centrovany"/>
-            <div class="text-center kontakt">
-                <span class="nadpis-gray">Marta Treciaková</span><br/>
-                <span class="nadpis-gray">pozícia</span><br/>
-                0917 461 967<br/>
-                ekonom@iwin.sk
-            </div>
-            <img src="img/girl2.jpg" class="img-responsive img-centrovany"/>
-            <div class="text-center kontakt">
-                <span class="nadpis-gray">Mária Kaščáková</span><br/>
-                <span class="nadpis-gray">pozícia</span><br/>
-                0918 562 737<br/>
-                ekonom@iwin.sk
-            </div>
-            <img src="img/boy.jpg" class="img-responsive img-centrovany"/>
-            <div class="text-center kontakt">
-                <span class="nadpis-gray">Martin Ruščin</span><br/>
-                <span class="nadpis-gray">Personálny manažér</span><br/>
-                0905 902 180<br/>
-                personalna@iwin.sk
-            </div>
-            <img src="img/boy.jpg" class="img-responsive img-centrovany"/>
-            <div class="text-center kontakt">
-                <span class="nadpis-gray">Ján Budzik</span><br/>
-                <span class="nadpis-gray">Personálny manažér</span><br/>
-                0905 655 360<br/>
-                praca@iwin.sk
-            </div>
-            <img src="img/boy.jpg" class="img-responsive img-centrovany"/>
-            <div class="text-center kontakt">
-                <span class="nadpis-gray">Marek Stretavský</span><br/>
-                <span class="nadpis-gray">Personálny manažér</span><br/>
-                0918 678 623<br/>
-                work@iwin.sk
-            </div>
-        </div>
-        <div class="col-sm-10">
+        <div class="col-sm-12">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4">
@@ -123,93 +80,118 @@
                             Tel 0800 144 125</p>
                     </div>
                     <div class="col-sm-8">
+                        <form class="form-inline">
+                            <div class="form-group radio-buttony">
+                                <label style="padding-right:20px;">Pobočky:</label>
+                                <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(0)" checked>Vranov</label>
+                                <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(1)">Snina</label>
+                                <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(2)">Svidník</label>
+                                <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(3)">Česká Republika</label>
+                            </div>
+                        </form>
                         <iframe
+                                id="googleMap"
                                 width="650"
                                 height="450"
                                 frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI &q=Budovateľská+1285%2F33,+093+01+Vranov+nad+Topľou" allowfullscreen>
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Budovateľská+1285%2F33,+093+01+Vranov+nad+Topľou" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
                 <div class="row mapa-row">
-                    <div class="col-sm-4">
-                        <h3 style="margin-top:0px;"><strong>Pobočka Snina:</strong></h3>
-                        <p>Budovateľská 1285<br/>
-                            093 01<br/>
-                            Snina<br/><br/>
-                            snina@iwin.sk<br/>
-                            Tel 0915 258 369<br/></p>
+                    <div class="col-sm-6">
+                        <h3 style="margin-top:0px;"><strong>Pobočky:</strong></h3>
+                        <table class="table table-striped ">
+                            <thead>
+                            <tr>
+                                <th>Mesto</th>
+                                <th>Adresa</th>
+                                <th>Kontakt</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Snina</td>
+                                <td>Budovateľská 1285<br/>093 01</td>
+                                <td>snina@iwin.sk<br/>Tel 0915 258 369</td>
+                            </tr>
+                            <tr>
+                                <td>Svidník</td>
+                                <td>Budovateľská 1285<br/>093 01</td>
+                                <td>snina@iwin.sk<br/>Tel 0915 258 369</td>
+                            </tr>
+                            <tr>
+                                <td>Pobočka ČR</td>
+                                <td>Budovateľská 1285<br/>093 01<br/>Uničov<br/>Česká republika</td>
+                                <td>unicov@iwin.sk<br/>Tel 0915 258 369</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="col-sm-8">
-                        <iframe
-                                width="650"
-                                height="450"
-                                frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI &q=Budovateľská+1285%2F33,+093+01+Vranov+nad+Topľou" allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-                <div class="row mapa-row">
-                    <div class="col-sm-4">
-                        <h3 style="margin-top:0px;"><strong>Pobočka Svidník:</strong></h3>
-                        <p>Budovateľská 1285<br/>
-                            093 01<br/>
-                            Svidník<br/>
-                            ​<br/>
-                            svidnik@iwin.sk<br/>
-                            Tel 0915 258 369</p>
-                    </div>
-                    <div class="col-sm-8">
-                        <iframe
-                                width="650"
-                                height="450"
-                                frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI &q=Budovateľská+1285%2F33,+093+01+Vranov+nad+Topľou" allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-                <div class="row mapa-row">
-                    <div class="col-sm-4">
-                        <h3 style="margin-top:0px;"><strong>Pobočka ČR</strong></h3>
-                        <p>Budovateľská 1285<br/>
-                            093 01<br/>
-                            Uničov<br/>
-                            Česká republika<br/>
-                            ​<br/>
-                            uničov@iwin.sk<br/>
-                            Tel 0915 258 369</p>
-                    </div>
-                    <div class="col-sm-8">
-                        <iframe
-                                width="650"
-                                height="450"
-                                frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI &q=Budovateľská+1285%2F33,+093+01+Vranov+nad+Topľou" allowfullscreen>
-                        </iframe>
+                    <div class="col-sm-6">
+                        <h3 style="margin-top:0px;"><strong>Kontakty:</strong></h3>
+                        <div class="text-center kontakt">
+                            <strong>Jana Baníková</strong><br/>
+                            <span class="nadpis-gray">pozícia</span><br/>
+                            0908 291 180<br/>
+                            job@iwin.sk
+                        </div>
+                        <div class="text-center kontakt">
+                            <strong>Marta Treciaková</strong><br/>
+                            <span class="nadpis-gray">pozícia</span><br/>
+                            0917 461 967<br/>
+                            ekonom@iwin.sk
+                        </div>
+                        <div class="text-center kontakt">
+                            <strong>Mária Kaščáková</strong><br/>
+                            <span class="nadpis-gray">pozícia</span><br/>
+                            0918 562 737<br/>
+                            ekonom@iwin.sk
+                        </div>
+                        <div class="text-center kontakt">
+                            <strong>Martin Ruščin</strong><br/>
+                            <span class="nadpis-gray">Personálny manažér</span><br/>
+                            0905 902 180<br/>
+                            personalna@iwin.sk
+                        </div>
+                        <div class="text-center kontakt">
+                            <strong>Ján Budzik</strong><br/>
+                            <span class="nadpis-gray">Personálny manažér</span><br/>
+                            0905 655 360<br/>
+                            praca@iwin.sk
+                        </div>
+                        <div class="text-center kontakt">
+                            <strong>Marek Stretavský</strong><br/>
+                            <span class="nadpis-gray">Personálny manažér</span><br/>
+                            0918 678 623<br/>
+                            work@iwin.sk
+                        </div>
                     </div>
                 </div>
                 <div class="row mapa-row ">
-                    <div class="col-sm-10">
-                        <h3><strong>V prípade záujmu nám napíšte a my Vás budeme kontaktovať.</strong></h3>
-                        <hr class="hr-underline"/>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="meno" placeholder="Meno" name="meno">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="mobil" placeholder="Mobil *" name="mobil" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="adresa" placeholder="Adresa" name="adresa">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" rows="3" id="sprava" placeholder="Správa *" required name="sprava"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-sample pull-right">Odoslať</button>
-                        </form>
+                    <div class="col-sm-12">
+                        <div class="text-center" style="max-width:600px; margin: 0px auto;">
+                            <h3><strong>V prípade záujmu nám napíšte a my Vás budeme kontaktovať.</strong></h3>
+                            <hr class="hr-underline"/>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="meno" placeholder="Meno" name="meno">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="mobil" placeholder="Mobil *" name="mobil" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="adresa" placeholder="Adresa" name="adresa">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" id="sprava" placeholder="Správa *" required name="sprava"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-sample pull-right">Odoslať</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -267,5 +249,24 @@
     </div>
 </footer>
 
+<script>
+    function clicked(item) {
+        var url = '';
+        switch (item) {
+            case 1:
+                url = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Snina';
+                break;
+            case 2:
+                url = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Svidnik';
+                break;
+            case 3:
+                url = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Ceska+Republika';
+                break;
+            default :
+                url = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Budovateľská+1285%2F33,+093+01+Vranov+nad+Topľou';
+        }
+        $("#googleMap").attr("src", url);
+    }
+</script>
 </body>
 </html>
