@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>IWIN services s.r.o. - Index</title>
+    <title>IWIN services s.r.o. - Kontakt</title>
+    <meta name="keywords" content="pracovné ponuky, práca v zahraničí, práca na Slovensku, pracovna agentura"/>
+    <meta name="description" content="Ponúkame vám dobre platenú prácu v Čechách a na Slovensku. Ubytovanie, strava a doprava zabezpečené."/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico"/>
@@ -16,7 +18,7 @@
 <div class="container">
     <div class="row " style="padding:15px;  ">
         <div class="col-sm-6">
-            <img class="img-responsive" src="img/logo.png" style="width: auto;height: 162px; padding: 0px 0px 0px 15px"/>
+            <img class="img-responsive" src="img/logo.png" alt="logo iwin"style="width: auto;height: 162px; padding: 0px 0px 0px 15px"/>
         </div>
         <div class="col-sm-6" style="">
             <ul class="list-inline pull-right">
@@ -173,21 +175,21 @@
                         <div class="text-center" style="max-width:600px; margin: 0px auto;">
                             <h3><strong>V prípade záujmu nám napíšte a my Vás budeme kontaktovať.</strong></h3>
                             <hr class="hr-underline"/>
-                            <form>
+                            <form id="uchadzaciForm">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="meno" placeholder="Meno" name="meno">
+                                    <input type="text" class="form-control" id="meno" placeholder="Meno" name="meno" maxlength="50">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Email *" name="email" required>
+                                    <input type="email" class="form-control" id="email" placeholder="Email *" name="email" required maxlength="50">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="mobil" placeholder="Mobil *" name="mobil" required>
+                                    <input type="text" class="form-control" id="mobil" placeholder="Mobil *" name="mobil" required maxlength="50">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="adresa" placeholder="Adresa" name="adresa">
+                                    <input type="text" class="form-control" id="adresa" placeholder="Adresa" name="adresa" maxlength="150">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="3" id="sprava" placeholder="Správa *" required name="sprava"></textarea>
+                                    <textarea class="form-control" rows="3" id="sprava" placeholder="Správa *" required name="sprava" maxlength="500"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-sample pull-right">Odoslať</button>
                             </form>
@@ -267,6 +269,23 @@
         }
         $("#googleMap").attr("src", url);
     }
+
+    var $frm = $("#uchadzaciForm");
+    $frm.submit(function (event) {
+        event.preventDefault();
+        var url = 'http://jmurin.sk/iwin/sendemail.php';
+        var formData = $($frm).serializeArray();
+        $.post(url, formData).done(function (data) {
+            console.log(data);
+            var result = JSON.parse(data);
+            if (result.status == "OK") {
+                alert('Váš odkaz bol odoslaný. Ďakujeme, ozveme sa Vám.');
+                $frm.trigger('reset');
+            } else {
+                alert('Nastala chyba: ' + result.message);
+            }
+        });
+    });
 </script>
 </body>
 </html>
