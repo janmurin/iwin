@@ -18,7 +18,7 @@
 <div class="container">
     <div class="row " style="padding:15px;  ">
         <div class="col-sm-6">
-            <img class="img-responsive" src="img/logo.png" alt="logo iwin"style="width: auto;height: 162px; padding: 0px 0px 0px 15px"/>
+            <a href="http://jmurin.sk/iwin"><img class="img-responsive" src="img/logo.png" alt="logo iwin" style="width: auto;height: 162px; padding: 0px 0px 0px 15px"/></a>
         </div>
         <div class="col-sm-6" style="">
             <ul class="list-inline pull-right">
@@ -32,7 +32,7 @@
 
 
 <!-- NAVIGATION -->
-<div class="container">
+<div class="container-fluid full-width">
     <nav class="navbar navbar-inverse">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -108,7 +108,7 @@
                 </tr>
                 <tr>
                     <td>Bližšie informácie:</td>
-                    <td>Ján Budzik <strong>0915 300 254</strong>, Marek Stretavský <strong>0915 300 254</strong></td>
+                    <td>Ján Budzik <strong>0915 300 254</strong>,<br/> Marek Stretavský <strong>0915 300 254</strong></td>
                 </tr>
             </table>
             <br/>
@@ -123,7 +123,7 @@
                 <div>
                     <ul>
                         <li>ubytovanie a transport zabezpečené</li>
-                        <li>zálohy a pomoc s riešením ťažkých životných situácií</li>
+                        <li>možné poskytnutie zálohy</li>
                     </ul>
                 </div>
                 <br/>
@@ -192,7 +192,7 @@
                         <li>kontaktuje našich personálnych manažérov</li>
                         <li>volajte na našu bezplatnú infolinku</li>
                         <li>zanechajte nám odkaz na tejto stránke, alebo facebooku <a href="https://www.facebook.com/iwinservices/" target="_blank"><img src="img/facebook.png"/></a></li>
-                        <li>navštívte jednu z našich 3 pobočiek vo Vranove nad Topľou, Snine alebo Stropkove</li>
+                        <li>navštívte jednu z našich 3 pobočiek vo Vranove nad Topľou, Humennom alebo Svidníku</li>
                     </ul>
                 </div>
             </div>
@@ -240,7 +240,7 @@
                     <input type="text" class="form-control" id="meno" placeholder="Meno" name="meno" maxlength="50">
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email *" name="email" required maxlength="50">
+                    <input type="text" class="form-control" id="email" placeholder="Email" name="email" maxlength="50">
                 </div>
                 <div class="form-group">
                     <input type="text" class="form-control" id="mobil" placeholder="Mobil *" name="mobil" required maxlength="50">
@@ -262,7 +262,21 @@
     <div class="row">
         <div class="container">
             <div class="row">
-                <div class="col-xs-4" style="text-align:center;">
+                <div class="col-xs-8 col-sm-8 col-md-12 text-center">
+                    <h4>Bezplatná infolinka: <strong>0800 144 125</strong></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 ">
+                    <a href="http://www.okna.iwin.sk/"><img class="img-responsive banner" src="img/plastove.jpg"/></a>
+                </div>
+                <div class="col-xs-4 ">
+                    <a href="http://www.zaluzie.iwin.sk/"><img class="img-responsive banner" src="img/zaluzie.jpg"/></a>
+                </div>
+                <div class="col-xs-4 text-center" style="margin-top: -40px;">
+                    <p style="margin:0px"><strong>IWIN services spol. s.r.o.</strong></p>
+                    <p style="margin:0px">Budovateľská 1285</p>
+                    <p>09301 Vranov Nad Topľou</p>
                     <a href="http://www.freecounterstat.com" title="page counter">
                         <img src="http://counter3.01counter.com/private/freecounterstat.php?c=f10afee736cd65aae117cdcca80c5b3a" border="0" title="page counter" alt="page counter">
                     </a>
@@ -283,25 +297,6 @@
                     <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?3677680&101" alt="free log" border="0"></a></noscript>
                     <!-- Histats.com  END  -->
                 </div>
-                <div class="col-xs-4" style="text-align:center;">
-                    <h4>Bezplatná infolinka: <strong>0800 144 125</strong></h4>
-                </div>
-                <div class="col-xs-4 text-center">
-                    <p style="margin:0px"><strong>IWIN services spol. s.r.o.</strong></p>
-                    <p style="margin:0px">Budovateľská 1285</p>
-                    <p>09301 Vranov Nad Topľou</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-4 ">
-                    <a href="http://www.okna.iwin.sk/"><img class="img-responsive banner" src="img/plastove.png"/></a>
-                </div>
-                <div class="col-xs-4 ">
-                    <a href="http://www.zaluzie.iwin.sk/"><img class="img-responsive banner" src="img/zaluzie.png"/></a>
-                </div>
-                <div class="col-xs-4 ">
-                    <a href="http://www.personalna.iwin.sk/"><img class="img-responsive banner" src="img/personalna.png"/></a>
-                </div>
             </div>
         </div>
     </div>
@@ -314,7 +309,6 @@
         var url = 'http://jmurin.sk/iwin/sendemail.php';
         var formData = $($frm).serializeArray();
         $.post(url, formData).done(function (data) {
-            console.log(data);
             var result = JSON.parse(data);
             if (result.status == "OK") {
                 alert('Váš odkaz bol odoslaný. Ďakujeme, ozveme sa Vám.');

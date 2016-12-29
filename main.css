@@ -11,7 +11,7 @@
 
 }
 
-@media (min-width: 601px) {
+@media (min-width: 800px) {
 
     .navbar-nav {
         display: table;
@@ -76,6 +76,11 @@
     padding-left: 0px;
 }
 
+.full-width{
+    padding-right:0px;
+    padding-left:0px;
+}
+
 /*.navbar-nav > li > a {*/
 /*padding-top: 10px;*/
 /*padding-bottom: 10px;*/
@@ -126,15 +131,19 @@
     font-size: 40px;
 }
 
+h4{
+    font-size: 22px;
+}
+
 .bigger-padding {
-    padding: 20px 40px;
+    padding: 20px 36px;
 }
 
 /* BODY CONTENT */
 
 body {
     font-family: Constantia;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .praca-table {
@@ -243,7 +252,7 @@ footer {
 
 .banner {
     width: auto;
-    height: 170px;
+    height: 200px;
     padding: 10px 0px 10px 15px;
     display: block;
     margin-left: auto;
