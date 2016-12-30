@@ -112,11 +112,11 @@
 
 .citacia {
     font-style: italic;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .citacia-larger {
-    font-size: 27px;
+    font-size: 30px;
     font-style: italic;
 }
 
@@ -143,7 +143,7 @@ h4{
 
 body {
     font-family: Constantia;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .praca-table {
@@ -219,6 +219,15 @@ body {
     padding: 15px;
 }
 
+.kontakty-table{
+    width:100%;
+    text-align:left;
+}
+
+.kontakty-table td{
+    width:50%;
+}
+
 .last-row {
     margin-bottom: 50px;
 }
@@ -252,7 +261,7 @@ footer {
 
 .banner {
     width: auto;
-    height: 200px;
+    height: 260px;
     padding: 10px 0px 10px 15px;
     display: block;
     margin-left: auto;
