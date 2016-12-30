@@ -8,7 +8,6 @@
     .carousel-caption {
         display: none;
     }
-
 }
 
 @media (min-width: 800px) {
@@ -26,6 +25,10 @@
     }
 }
 
+/*.container {*/
+    /*width: 970px;*/
+/*}*/
+
 @font-face {
     font-family: Constantia;
     src: url('font2.woff');
@@ -38,33 +41,34 @@
 
 .header-text {
     font-family: font3;
-    padding-top: 100px;
-    font-size: 20px;
+    padding-top: 20px;
+    font-size: 16px;
     font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
-}
-
-.posunute{
-    margin-right:-63px;
 }
 
 .logo {
     width: auto;
+    height: 100px;
     padding: 0px 0px 0px 15px;
 }
 
-.large-font{
-    font-size:40px;
+.posunute {
+    margin-right: 0px;
 }
 
-.header-padding{
-    padding-top:15px;
+.large-font {
+    font-size: 30px;
+}
+
+.header-padding {
+    padding: 0px;
 }
 
 /* NAVBAR */
 .navbar {
     position: relative;
-    min-height: 20px;
-    margin-bottom: 20px;
+    min-height: 10px;
+    margin-bottom: 10px;
     border-radius: 0px;
     border: 0px solid transparent;
 }
@@ -88,6 +92,10 @@
     background-color: black;
 }
 
+.navbar-nav > li > a {
+    line-height: 10px;
+}
+
 .navbar-collapse {
     padding-right: 0px;
     padding-left: 0px;
@@ -107,7 +115,7 @@
 .nav > li > a {
     position: relative;
     display: block;
-    padding: 3px 35px 5px 35px;
+    padding: 3px 25px 5px 25px;
 }
 
 /* RED CONTAINER */
@@ -115,8 +123,8 @@
     background-color: rgba(226, 28, 33, 1);
     color: white;
     width: 100%;
-    padding: 20px 15px;
-    font-size: 22px;
+    padding: 10px 7px;
+    font-size: 18px;
     overflow: auto;
 }
 
@@ -129,19 +137,19 @@
 
 .citacia {
     font-style: italic;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .citacia-larger {
-    font-size: 30px;
+    font-size: 22px;
     font-style: italic;
 }
 
 .citacia-special {
     line-height: normal;
     letter-spacing: normal;
-    font-size: 35px;
-    margin: 0px 20px 0px 20px;
+    font-size: 26px;
+    margin: 0px 10px 0px 10px;
 }
 
 h4 {
@@ -149,14 +157,14 @@ h4 {
 }
 
 .bigger-padding {
-    padding: 20px 36px;
+    padding: 10px 18px;
 }
 
 /* BODY CONTENT */
 
 body {
     font-family: Constantia;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .praca-table {
@@ -182,7 +190,7 @@ body {
 
 .obrazok-rozmery {
     width: 100%;
-    max-width: 350px;
+    max-width: 250px;
 }
 
 .radio-buttony {
@@ -194,9 +202,9 @@ body {
 }
 
 .titulok {
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
@@ -205,12 +213,12 @@ body {
 .red-back {
     background-color: rgba(226, 28, 33, 1);
     color: white;
-    padding: 10px 10px;
+    padding: 7px 7px;
 }
 
 .modry-nadpis {
     color: #233887;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 800;
 }
 
@@ -246,7 +254,7 @@ body {
 }
 
 .maly-nadpis {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 textarea {
@@ -260,7 +268,7 @@ footer {
 
 .banner {
     width: auto;
-    height: 260px;
+    height: 200px;
     padding: 10px 0px 10px 15px;
     display: block;
     margin-left: auto;
