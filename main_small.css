@@ -25,9 +25,9 @@
     }
 }
 
-/*.container {*/
-    /*width: 970px;*/
-/*}*/
+.container {
+    max-width: 900px;
+}
 
 @font-face {
     font-family: Constantia;
@@ -41,19 +41,21 @@
 
 .header-text {
     font-family: font3;
-    padding-top: 20px;
+    /*padding-top: 50px;*/
+    position: absolute;
+    top: 50px;
+    right: 15px;
     font-size: 16px;
     font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
 }
 
 .logo {
     width: auto;
-    height: 100px;
     padding: 0px 0px 0px 15px;
 }
 
-.posunute {
-    margin-right: 0px;
+.logo-height {
+    height: 100px;
 }
 
 .large-font {
@@ -190,7 +192,7 @@ body {
 
 .obrazok-rozmery {
     width: 100%;
-    max-width: 250px;
+    max-width: 350px;
 }
 
 .radio-buttony {
