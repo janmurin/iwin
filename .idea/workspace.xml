@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cde2361e-4a38-4e07-981f-8713c4be9da6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firmy.html" afterPath="$PROJECT_DIR$/firmy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakt.html" afterPath="$PROJECT_DIR$/kontakt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/referencie.html" afterPath="$PROJECT_DIR$/referencie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uchadzaci.html" afterPath="$PROJECT_DIR$/uchadzaci.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +64,8 @@
       <file leaf-file-name="uchadzaci.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uchadzaci.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="303" column="8" lean-forward="true" selection-start-line="303" selection-start-column="8" selection-end-line="303" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,8 +108,8 @@
         <option value="$PROJECT_DIR$/referencie.html" />
         <option value="$PROJECT_DIR$/kontakt.html" />
         <option value="$PROJECT_DIR$/sendemail.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/uchadzaci.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -289,12 +283,12 @@
       <workItem from="1482830876240" duration="38630000" />
       <workItem from="1483179605527" duration="15123000" />
       <workItem from="1483458899114" duration="323000" />
-      <workItem from="1483459243012" duration="5174000" />
+      <workItem from="1483459243012" duration="5307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105197000" />
+    <option name="totallyTimeSpent" value="105330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -787,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/referencie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -864,10 +850,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uchadzaci.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="303" column="8" lean-forward="true" selection-start-line="303" selection-start-column="8" selection-end-line="303" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
