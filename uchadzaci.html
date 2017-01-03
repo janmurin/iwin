@@ -20,7 +20,7 @@
 <div class="container">
     <div class="row header-padding">
         <div class="col-sm-6">
-            <a href="http://jmurin.sk/iwin"><img class="img-responsive logo logo-height" src="img/logo.png" alt="logo iwin"/></a>
+            <a href="http://www.iwin.sk"><img class="img-responsive logo logo-height" src="img/logo.png" alt="logo iwin"/></a>
         </div>
         <div class="col-sm-6 logo-height" style="">
             <ul class="list-inline pull-right">
@@ -305,7 +305,7 @@
     var $frm = $("#uchadzaciForm");
     $frm.submit(function (event) {
         event.preventDefault();
-        var url = 'http://jmurin.sk/iwin/sendemail.php';
+        var url = 'sendemail.php';
         var formData = $($frm).serializeArray();
         $.post(url, formData).done(function (data) {
             var result = JSON.parse(data);
