@@ -1,0 +1,353 @@
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .navbar-nav {
+        display: table;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-nav > li {
+        float: none;
+        display: table-cell;
+        text-align: center;
+    }
+}
+
+.container {
+    max-width: 900px;
+}
+
+@font-face {
+    font-family: Constantia;
+    src: url('font2.woff');
+}
+
+@font-face {
+    font-family: font3;
+    src: url('font3.woff');
+}
+
+.header-text {
+    font-family: font3;
+    /*padding-top: 50px;*/
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    font-size: 16px;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+}
+
+.logo {
+    width: auto;
+    padding: 0px 0px 0px 15px;
+}
+
+.logo-height {
+    height: 100px;
+}
+
+.large-font {
+    font-size: 30px;
+}
+
+.header-padding {
+    padding: 0px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: relative;
+    min-height: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border: 0px solid transparent;
+}
+
+.navbar-inverse {
+    color: white;
+    background-color: rgba(226, 28, 33, 1);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: darkred;
+}
+
+.nav > li:hover {
+    background-color: black;
+}
+
+.navbar-nav > li > a {
+    line-height: 10px;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.full-width {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/*.navbar-nav > li > a {*/
+/*padding-top: 10px;*/
+/*padding-bottom: 10px;*/
+/*line-height: 20px;*/
+/*}*/
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 3px 25px 5px 25px;
+}
+
+/* RED CONTAINER */
+.red-container {
+    background-color: rgba(226, 28, 33, 1);
+    color: white;
+    width: 100%;
+    padding: 10px 7px;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.red-container-img {
+    float: right;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.citacia {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.citacia-larger {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.citacia-special {
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 26px;
+    margin: 0px 10px 0px 10px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.bigger-padding {
+    padding: 10px 18px;
+}
+
+/* BODY CONTENT */
+
+body {
+    font-family: Constantia;
+    font-size: 14px;
+}
+
+.praca-table {
+    width: auto !important;
+    margin-bottom: 0px;
+}
+
+.pobocky-table {
+    width: auto !important;
+    margin-bottom: 0px;
+}
+
+.praca-table > tbody > tr > td {
+    padding: 0px;
+    border-top: 0px solid #ddd;
+}
+
+.praca-table > tbody > tr > td:nth-child(1) {
+    text-align: left;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.obrazok-rozmery {
+    width: 100%;
+    max-width: 350px;
+}
+
+.radio-buttony {
+    padding: 5px 20px;
+}
+
+.radio-buttony > label.radio-inline {
+    margin-bottom: 2px;
+}
+
+.titulok {
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.red-back {
+    background-color: rgba(226, 28, 33, 1);
+    color: white;
+    padding: 7px 7px;
+}
+
+.modry-nadpis {
+    color: #233887;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.nadpis-gray {
+    color: darkgray;
+}
+
+.kontakty-table {
+    width: 100%;
+    text-align: left;
+}
+
+.kontakty-table td {
+    width: 50%;
+}
+
+.last-row {
+    margin-bottom: 50px;
+}
+
+.mapa-row {
+    margin-top: 30px;
+}
+
+.img-centrovany {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr-underline {
+    margin-top: 5px;
+    border-top: 2px solid #888;
+}
+
+.maly-nadpis {
+    font-size: 18px;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+}
+
+.banner {
+    padding: 10px 0px 10px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-sample {
+    color: #ffffff;
+    background-color: #0D0C0D;
+    border-color: #130269;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    color: #ffffff;
+    background-color: #7A2425;
+    border-color: #130269;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+    background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+    background-color: #0D0C0D;
+    border-color: #130269;
+}
+
+.btn-sample .badge {
+    color: #0D0C0D;
+    background-color: #ffffff;
+}
+
+.img-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.common-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.common-section .item {
+    margin: 10px;
+}
+
+.black-border{
+    border: 1px solid black;
+}
+
+.cerveny-nadpis {
+    color: #990000;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.sive-pozadie{
+    background-color: lightgrey;
+}
