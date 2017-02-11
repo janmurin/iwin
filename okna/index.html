@@ -13,6 +13,7 @@
     <link rel="stylesheet" media="screen and (min-device-width: 1401px)" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.waterwheelCarousel.js"></script>
 </head>
 <body>
 <!-- HEADER -->
@@ -22,11 +23,39 @@
             <a href="http://www.iwin.sk"><img class="img-responsive logo logo-height" src="img/logo.png" alt="logo iwin"/></a>
         </div>
         <div class="col-sm-6 logo-height" style="">
-            <ul class="list-inline pull-right">
-                <li><a href="https://www.linkedin.com/company/iwin-services-spol.-s-r.o.?expanded=true&trk=mini-profile" target="_blank"><img src="img/linkedin.png"/></a></li>
-                <li><a href="https://www.facebook.com/iwinservices/" target="_blank"><img src="img/facebook.png"/></a></li>
-            </ul>
-            <div class="header-text pull-right ">bezplatne volajte <span class="large-font">0800 144 125</span></div>
+            <div class="header-buttons">
+                <ul class="list-inline pull-right">
+                    <li><a href="https://www.linkedin.com/company/iwin-services-spol.-s-r.o.?expanded=true&trk=mini-profile" target="_blank"><img src="img/linkedin.png"/></a></li>
+                    <li><a href="https://www.facebook.com/iwinservices/" target="_blank"><img src="img/facebook.png"/></a></li>
+                </ul>
+            </div>
+            <img src="img/okna-header.png" alt="header" class="img-responsive pull-right header-img"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="waterwheel-carousel">
+                <img src="car/car1.jpg"/>
+                <img src="car/car2.jpg"/>
+                <img src="car/car3.jpg"/>
+                <img src="car/car4.jpg"/>
+                <img src="car/car5.jpg"/>
+                <img src="car/car6.jpg"/>
+                <img src="car/car7.jpg"/>
+                <img src="car/car8.jpg"/>
+                <img src="car/car9.jpg"/>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    car=$("#waterwheel-carousel").waterwheelCarousel({
+                        autoPlay: 4000
+                    });
+                });
+            </script>
+            <h1 id="h1title" class="text-center header-info-text" style="font-weight: bold">PLASTOVÉ OKNÁ, PARAPETY, ŽALÚZIE IHNEĎ K ODBERU<br/>
+                <span class="cervena-bold">NAVŠTÍVTE NÁŠ SKLAD,<br/>
+                    URČITE SI U NÁS VYBERIETE</span>
+            </h1>
         </div>
     </div>
 </div>
@@ -45,12 +74,12 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="okna.html">Okná</a></li>
-                <li><a href="parapety.html">Parapety</a></li>
-                <li><a href="technika.html">Tieniaca technika</a></li>
-                <li><a href="sklad.html">Sklad</a></li>
-                <li><a href="montaz.html">Montáž a servis</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+                <li class="active"><a href="okna.html#h1title">Okná</a></li>
+                <li><a href="parapety.html#h1title">Parapety</a></li>
+                <li><a href="technika.html#h1title">Tieniaca technika</a></li>
+                <li><a href="sklad.html#h1title">Sklad</a></li>
+                <li><a href="montaz.html#h1title">Montáž a servis</a></li>
+                <li><a href="kontakt.html#h1title">Kontakt</a></li>
             </ul>
         </div>
     </nav>
