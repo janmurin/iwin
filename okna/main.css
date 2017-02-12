@@ -380,3 +380,9 @@ fieldset[disabled] .btn-sample.active {
     color: #E21C21;
     font-weight: bold;
 }
+
+.cerveny-nadpis2 {
+    color: #E21C21;
+    font-size: 25px;
+    font-weight: 800;
+}
