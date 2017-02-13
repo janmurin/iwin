@@ -262,7 +262,7 @@ footer {
 }
 
 .banner {
-    padding: 10px 0px 10px 15px;
+    padding: 0px 0px 20px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -385,4 +385,8 @@ fieldset[disabled] .btn-sample.active {
     color: #E21C21;
     font-size: 25px;
     font-weight: 800;
+}
+
+.kontakty {
+    font-size: 22px;
 }
