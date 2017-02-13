@@ -227,16 +227,15 @@
 <footer class="container-fluid ">
     <div class="row">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-6 col-sm-4">
-                    <a href="http://www.okna.iwin.sk/" target="_blank"><img class="img-responsive banner" src="img/plastove.jpg"/></a>
+            <div class="row" style="padding-top:20px;">
+                <div class="col-xs-12 col-sm-6">
+                    <a href="http://www.okna.iwin.sk/" target="_blank"><img class="img-responsive banner" src="img/banner-okna-footer.png"/></a>
                 </div>
-                <div class="col-xs-6 col-sm-4">
-                    <a href="http://www.zaluzie.iwin.sk/" target="_blank"><img class="img-responsive banner" src="img/zaluzie.jpg"/></a>
-                </div>
-                <div class="col-xs-12 col-sm-4 text-center">
+                <div class="col-xs-6 col-sm-3 text-center">
                     <h2>Bezplatná infolinka: <br/><strong>0800 144 125</strong></h2>
                     <br/>
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
                     <p style="margin:0px"><strong>IWIN SERVICES spol. s r.o.</strong></p>
                     <p style="margin:0px">Budovateľská 1285</p>
                     <p>09301 Vranov Nad Topľou</p>
@@ -290,6 +289,7 @@
         var url = 'sendemail.php';
         var formData = $($frm).serializeArray();
         $.post(url, formData).done(function (data) {
+            console.log(JSON.stringify(data));
             var result = JSON.parse(data);
             if (result.status == "OK") {
                 alert('Váš odkaz bol odoslaný. Ďakujeme, ozveme sa Vám.');

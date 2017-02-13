@@ -390,3 +390,7 @@ fieldset[disabled] .btn-sample.active {
 .kontakty {
     font-size: 22px;
 }
+
+.okna-nav-font {
+    font-size: inherit;
+}
