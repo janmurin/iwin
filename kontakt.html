@@ -88,8 +88,8 @@
                             <div class="form-group radio-buttony">
                                 <label style="padding-right:20px;">Pobočky:</label>
                                 <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(0)" checked>Vranov</label>
-                                <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(1)">Humenné</label>
-                                <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(2)">Svidník</label>
+                                <!--<label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(1)">Humenné</label>-->
+                                <!--<label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(2)">Svidník</label>-->
                                 <label class="radio-inline"><input type="radio" name="pobocka" onclick="clicked(3)">Česká Republika</label>
                             </div>
                         </form>
@@ -167,22 +167,22 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th>Mesto</th>
+                                <th></th>
                                 <th>Adresa</th>
                                 <th>Kontakt</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>Humenné</td>
-                                <td>Budova Allianz<br/>Mierová 2529/87<br/>066 52 Humenné</td>
-                                <td>Monika Haragaľová<br/>haragalova@iwin.sk<br/>Tel 0948 622 110</td>
-                            </tr>
-                            <tr>
-                                <td>Svidník</td>
-                                <td>AUSTIN PARK<br/>Bývalý hotel Dukla<br/>Stropkovská 568<br/>089 01 Svidník</td>
-                                <td>Alena Knišová<br/>svidnik@iwin.sk<br/>Tel 0948 337 488</td>
-                            </tr>
+                            <!--<tr>-->
+                                <!--<td>Humenné</td>-->
+                                <!--<td>Budova Allianz<br/>Mierová 2529/87<br/>066 52 Humenné</td>-->
+                                <!--<td>Monika Haragaľová<br/>haragalova@iwin.sk<br/>Tel 0948 622 110</td>-->
+                            <!--</tr>-->
+                            <!--<tr>-->
+                                <!--<td>Svidník</td>-->
+                                <!--<td>AUSTIN PARK<br/>Bývalý hotel Dukla<br/>Stropkovská 568<br/>089 01 Svidník</td>-->
+                                <!--<td>Alena Knišová<br/>svidnik@iwin.sk<br/>Tel 0948 337 488</td>-->
+                            <!--</tr>-->
                             <tr>
                                 <td>Pobočka ČR</td>
                                 <td>IWIN CZ spol. s r.o.<br/>Brníčko 1059<br/>783 91 Uničov<br/>Česká republika</td>
@@ -268,12 +268,12 @@
     function clicked(item) {
         var url = '';
         switch (item) {
-            case 1:
-                url = 'https://www.google.sk/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Mierov%C3%A1+87,+066+01+Humenn%C3%A9';
-                break;
-            case 2:
-                url = 'https://www.google.sk/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Stropkovská+568%2F1,+089+01+Svidník';
-                break;
+//            case 1:
+//                url = 'https://www.google.sk/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Mierov%C3%A1+87,+066+01+Humenn%C3%A9';
+//                break;
+//            case 2:
+//                url = 'https://www.google.sk/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Stropkovská+568%2F1,+089+01+Svidník';
+//                break;
             case 3:
                 url = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBBbO8rqN6dyjsIgsEOJ2EfMHsQHJ8QWGI&q=Brníčko,+783+91+Uničov,+Česká+republika';
                 break;
