@@ -333,3 +333,160 @@ fieldset[disabled] .btn-sample.active {
     color: #0D0C0D;
     background-color: #ffffff;
 }
+
+@media (max-device-width: 1400px) {
+
+    .maly-nadpis {
+        font-size: 18px;
+    }
+
+    .modry-nadpis {
+        color: #233887;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .titulok {
+        font-size: 25px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+    .red-back {
+        background-color: rgba(226, 28, 33, 1);
+        color: white;
+        padding: 7px 7px;
+    }
+
+    .obrazok-rozmery {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    body {
+        font-family: Constantia;
+        font-size: 14px;
+    }
+
+    /* RED CONTAINER */
+    .red-container {
+        background-color: rgba(226, 28, 33, 1);
+        color: white;
+        width: 100%;
+        padding: 10px 7px;
+        font-size: 18px;
+        overflow: auto;
+    }
+
+    .red-container-img {
+        float: right;
+        height: auto;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .citacia {
+        font-style: italic;
+        font-size: 18px;
+    }
+
+    .citacia-larger {
+        font-size: 22px;
+        font-style: italic;
+    }
+
+    .citacia-special {
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 26px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .bigger-padding {
+        padding: 10px 18px;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        position: relative;
+        min-height: 10px;
+        margin-bottom: 10px;
+        border-radius: 0px;
+        border: 0px solid transparent;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 10px;
+    }
+
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 3px 25px 5px 25px;
+    }
+
+    .header-text {
+        font-family: font3;
+        /*padding-top: 50px;*/
+        position: absolute;
+        top: 50px;
+        right: 15px;
+        font-size: 16px;
+        font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    }
+
+    .logo {
+        width: auto;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .logo-height {
+        height: 100px;
+    }
+
+    .large-font {
+        font-size: 30px;
+    }
+
+    .header-padding {
+        padding: 0px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .carousel-inner img {
+        width: 100%; /* Set width to 100% */
+        min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+        .carousel-caption {
+            display: none;
+        }
+    }
+
+    @media (min-width: 800px) {
+
+        .navbar-nav {
+            display: table;
+            width: 100%;
+            margin: 0;
+        }
+
+        .navbar-nav > li {
+            float: none;
+            display: table-cell;
+            text-align: center;
+        }
+    }
+}
