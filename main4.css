@@ -334,6 +334,14 @@ fieldset[disabled] .btn-sample.active {
     background-color: #ffffff;
 }
 
+.header-links li img.country {
+    max-height: 15px;
+}
+
+.header-links li img.country.selected {
+    max-height: 25px;
+}
+
 @media (max-device-width: 1400px) {
 
     .maly-nadpis {
