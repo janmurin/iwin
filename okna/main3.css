@@ -394,3 +394,11 @@ fieldset[disabled] .btn-sample.active {
 .okna-nav-font {
     font-size: inherit;
 }
+
+.header-links li img.country {
+    max-height: 15px;
+}
+
+.header-links li img.country.selected {
+    max-height: 25px;
+}
