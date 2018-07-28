@@ -11,7 +11,7 @@
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 
     .navbar-nav {
         display: table;
@@ -81,6 +81,7 @@
     color: white;
 }
 
+.navbar-inverse .navbar-nav > .active,
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
@@ -396,7 +397,7 @@ fieldset[disabled] .btn-sample.active {
 }
 
 .header-links li img.country {
-    max-height: 15px;
+    height: 25px;
 }
 
 .header-links li img.country.selected {

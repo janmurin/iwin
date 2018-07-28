@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<fileversions>
+	<file id="130263406274545308-5io5g1be" version="26" path="sitemap.xml" />
+	<file id="130263406274557809-5io5g1be" version="0" path="style\reset.css" />
+	<file id="130263406274570309-5io5g1be" version="0" path="style\print.css" />
+	<file id="130263406274570309-g7o616j1" version="5" path="style/style.css" />
+	<file id="130263406274582809-g7o616j1" version="14" path="style/menu.css" />
+	<file id="130263406274595309-g7o616j1" version="14" path="style/ie.css" />
+	<file id="130263406274607809-g7o616j1" version="6" path="res/x5settings.js" />
+	<file id="130263406274620310-g7o616j1" version="0" path="res\swfobject.js" />
+	<file id="130263406274632810-g7o616j1" version="0" path="res\jquery.js" />
+	<file id="130263406274645310-g7o616j1" version="0" path="res\x5engine.js" />
+	<file id="130263406274657810-g7o616j1" version="0" path="res\x5engine.offline.js" />
+	<file id="130263406274670310-g7o616j1" version="0" path="res\x5engine.deferrable.js" />
+	<file id="130263406274682810-g7o616j1" version="0" path="res\x5cartengine.js" />
+	<file id="130263406274695311-g7o616j1" version="1" path="res/x5settings.php" />
+	<file id="130263406274707811-g7o616j1" version="0" path="res\imemail.inc.php" />
+	<file id="130263406274720311-g7o616j1" version="27" path="res/search.inc.php" />
+	<file id="130263406274732811-qyq1631n" version="0" path="res\x5engine.php" />
+	<file id="130263406274745311-qyq1631n" version="0" path="res\imlogout.php" />
+	<file id="130263406274757812-qyq1631n" version="0" path="captcha\imcaptcha.php" />
+	<file id="130263406274770312-qyq1631n" version="0" path="res\expressInstall.swf" />
+	<file id="130263406274782812-qyq1631n" version="0" path="res\imImage.swf" />
+	<file id="130263406274795312-qyq1631n" version="0" path="res\imPanZoom.swf" />
+	<file id="130263406274807812-qyq1631n" version="0" path="res\imVideo.swf" />
+	<file id="130263406274820313-qyq1631n" version="0" path="res\imSound.swf" />
+	<file id="130263406274832813-qyq1631n" version="0" path="res\imsearch.png" />
+	<file id="130263406274845313-qyq1631n" version="0" path="res\move.png" />
+	<file id="130263406274857813-qyq1631n" version="0" path="res\imSwipe.png" />
+	<file id="130263406274870313-qyq1631n" version="0" path="res\date.gif" />
+	<file id="130263406274882814-ijq15v4n" version="0" path="res\info.gif" />
+	<file id="130263406274895314-ijq15v4n" version="0" path="res\imLoad.gif" />
+	<file id="130263406274907814-ijq15v4n" version="0" path="res\imClose.png" />
+	<file id="130263406274920314-ijq15v4n" version="0" path="res\imArrT.png" />
+	<file id="130263406274932814-ijq15v4n" version="0" path="res\imArrB.png" />
+	<file id="130263406274945314-ijq15v4n" version="0" path="res\imArrL.png" />
+	<file id="130263406274957815-ijq15v4n" version="0" path="res\imArrR.png" />
+	<file id="130263406274970315-ijq15v4n" version="0" path="res\imIconMenuLeft.gif" />
+	<file id="130263406274982815-ijq15v4n" version="0" path="res\imIconMenuRight.gif" />
+	<file id="130263406274995315-ijq15v4n" version="0" path="res\video_thumb.png" />
+	<file id="130263406275007815-ijq15v4n" version="0" path="res\separatorh.png" />
+	<file id="130263406275020316-ijq15v4n" version="0" path="res\separatorv.png" />
+	<file id="130263406275032816-ijq15v4n" version="0" path="res\imfolder_closed.gif" />
+	<file id="130263406275045316-s5t71n38" version="0" path="res\imfolder_open.gif" />
+	<file id="130263406275057816-s5t71n38" version="0" path="res\impage.gif" />
+	<file id="130263406275070316-s5t71n38" version="0" path="res\exclamation.png" />
+	<file id="130263406275082817-s5t71n38" version="0" path="res\email_go.png" />
+	<file id="130263406275095317-s5t71n38" version="0" path="res\key_go.png" />
+	<file id="130263406275107817-s5t71n38" version="0" path="res\tick.png" />
+	<file id="130263406275120317-s5t71n38" version="0" path="admin\blog.php" />
+	<file id="130263406275132817-s5t71n38" version="0" path="admin\checkaccess.php" />
+	<file id="130263406275145318-s5t71n38" version="0" path="admin\footer.php" />
+	<file id="130263406275157818-s5t71n38" version="0" path="admin\header.php" />
+	<file id="130263406275170318-s5t71n38" version="0" path="admin\index.php" />
+	<file id="130263406275182818-s5t71n38" version="0" path="admin\template.css" />
+	<file id="130263406275182818-49s70a68" version="0" path="admin\login.php" />
+	<file id="130263406275195318-49s70a68" version="0" path="admin\logo.png" />
+	<file id="130263406275207819-49s70a68" version="0" path="admin\guestbook.php" />
+	<file id="130263406275220319-49s70a68" version="0" path="admin\website_test.php" />
+	<file id="130263406275232819-49s70a68" version="0" path="admin\download.php" />
+	<file id="130263406275295320-49s70a68" version="0" path="res\l10n.php" />
+	<file id="130263406275332820-49s70a68" version="0" path="res\l10n.js" />
+	<file id="130263406275345321-49s70a68" version="0" path="res/access.inc.php" />
+	<file id="130263420102490118-7tih6532" version="1" path="captcha\imcpa_yax.gif" />
+	<file id="130263420102502618-19luf3fq" version="1" path="captcha\imcpa_z53.gif" />
+	<file id="130263420102515118-19luf3fq" version="1" path="captcha\imcpa_kxs.gif" />
+	<file id="130263420102527618-19luf3fq" version="1" path="captcha\imcpa_st2.gif" />
+	<file id="130263420102540118-19luf3fq" version="1" path="captcha\imcpa_tue.gif" />
+	<file id="130263420102552619-19luf3fq" version="1" path="captcha\imcpa_pj8.gif" />
+	<file id="130263420102565119-19luf3fq" version="1" path="captcha\imcpa_tys.gif" />
+	<file id="130263420102577619-19luf3fq" version="1" path="captcha\imcpa_u2r.gif" />
+	<file id="130263420102590119-19luf3fq" version="1" path="captcha\imcpa_cuu.gif" />
+	<file id="130263420102602619-19luf3fq" version="1" path="captcha\imcpa_ayj.gif" />
+	<file id="130263420102615120-19luf3fq" version="1" path="captcha\imkeys.php" />
+	<file id="130263427801352514-optc6n8k" version="2" path="gallery\iwin-baner_decco_thumb.png" />
+	<file id="130263427801377515-optc6n8k" version="2" path="gallery\iwin-baner_okna_aluplast_thumb.png" />
+	<file id="130263427801415015-optc6n8k" version="3" path="gallery\b01_l.png" />
+	<file id="130263427801427515-optc6n8k" version="3" path="gallery\b01_r.png" />
+	<file id="130263428246606860-ls3p5219" version="1" path="gallery\iwin-baner_decco.jpg" />
+	<file id="130263428246619360-ls3p5219" version="1" path="gallery\iwin-baner_okna_aluplast.jpg" />
+	<file id="130263440143664646-5xg540bs" version="3" path="images\iwin-baner_okna_aluplast.jpg" />
+	<file id="130263456228965264-z469e5ev" version="1" path="images\montaz.jpg" />
+	<file id="130263469896334481-gp5pl931" version="2" path="images\decco60.png" />
+	<file id="130263470827348782-83i9n2r6" version="1" path="images\decco70.png" />
+	<file id="130263472609899385-uxzqi2q6" version="1" path="menu/sub.png" />
+	<file id="130263472609911886-uxzqi2q6" version="1" path="menu/sub_h.png" />
+	<file id="130263472609924386-uxzqi2q6" version="1" path="menu/sub_f.png" />
+	<file id="130263472609936886-uxzqi2q6" version="1" path="menu/sub_m.png" />
+	<file id="130263472609949386-f1cevz4z" version="1" path="menu/sub_l.png" />
+	<file id="130263472609961886-f1cevz4z" version="1" path="menu/sub_f_h.png" />
+	<file id="130263472609974387-f1cevz4z" version="1" path="menu/sub_m_h.png" />
+	<file id="130263472609986887-f1cevz4z" version="1" path="menu/sub_l_h.png" />
+	<file id="130263473142957573-m41ypg87" version="2" path="images\iwin-baner_decco.jpg" />
+	<file id="130263480393949772-9whvii64" version="3" path="images\aluplast-ideal4000.jpg" />
+	<file id="130263480393962272-9whvii64" version="3" path="files\aluplast-ideal4000.jpg" />
+	<file id="130263482217290294-1uoy1d8v" version="1" path="images\aluplast-ideal8000.jpg" />
+	<file id="130263482217302795-1uoy1d8v" version="1" path="files\aluplast-ideal8000.jpg" />
+	<file id="130263482404568171-yly42008" version="1" path="menu/index.png" />
+	<file id="130263482404580671-yly42008" version="1" path="menu/index_h.png" />
+	<file id="130263482404593171-yly42008" version="1" path="menu/index_c.png" />
+	<file id="130263482404605672-yly42008" version="1" path="menu/montaz.png" />
+	<file id="130263482404618172-yly42008" version="1" path="menu/montaz_h.png" />
+	<file id="130263482404618172-i6bz7u8g" version="1" path="menu/montaz_c.png" />
+	<file id="130263482404630672-i6bz7u8g" version="1" path="menu/kontakt.png" />
+	<file id="130263482404643172-i6bz7u8g" version="1" path="menu/kontakt_h.png" />
+	<file id="130263482404655672-i6bz7u8g" version="1" path="menu/kontakt_c.png" />
+	<file id="130263482404668173-i6bz7u8g" version="1" path="menu/decco-.png" />
+	<file id="130263482404680673-i6bz7u8g" version="1" path="menu/decco-_h.png" />
+	<file id="130263482404693173-i6bz7u8g" version="1" path="menu/decco-_c.png" />
+	<file id="130263482404705673-i6bz7u8g" version="1" path="menu/aluplast.png" />
+	<file id="130263482404718173-i6bz7u8g" version="1" path="menu/aluplast_h.png" />
+	<file id="130263482404730674-i6bz7u8g" version="1" path="menu/aluplast_c.png" />
+	<file id="130263482404743174-i6bz7u8g" version="1" path="imemail\imEmailForm.php" />
+	<file id="130263484327500227-9y237014" version="1" path="images\aluplast-ideal5000.jpg" />
+	<file id="130263484327525228-9y237014" version="1" path="files\aluplast-ideal5000.jpg" />
+	<file id="130263486900484761-mia2wke3" version="1" path="style\top.png" />
+	<file id="130263486900497261-mia2wke3" version="1" path="style\bottom.png" />
+	<file id="130263486900509762-mia2wke3" version="1" path="style\template.css" />
+	<page id="0" lastmodified="2013-10-16 00:04:01" path="index.html" upath="index.html" construction="False" />
+	<page id="3" lastmodified="2013-10-16 00:11:31" path="ideal-4000.html" upath="ideal-4000.html" construction="False" />
+	<page id="4" lastmodified="2013-10-16 00:11:30" path="montaz.html" upath="montaz.html" construction="False" />
+	<page id="5" lastmodified="2013-10-16 00:11:31" path="kontakt.html" upath="kontakt.html" construction="False" />
+	<page id="-9" lastmodified="2013-10-16 00:11:30" path="imsearch.html" upath="imsearch.php" construction="False" />
+	<page id="-8" lastmodified="2013-10-16 00:11:30" path="imsitemap.html" upath="imsitemap.html" construction="False" />
+	<page id="6" lastmodified="2013-10-16 00:11:30" path="decco-60.html" upath="decco-60.html" construction="False" />
+	<page id="8" lastmodified="2013-10-16 00:11:30" path="decco-70.html" upath="decco-70.html" construction="False" />
+	<page id="10" lastmodified="2013-10-16 00:11:30" path="ideal-5000.html" upath="ideal-5000.html" construction="False" />
+	<page id="11" lastmodified="2013-10-16 00:11:31" path="ideal-8000.html" upath="ideal-8000.html" construction="False" />
+</fileversions>
