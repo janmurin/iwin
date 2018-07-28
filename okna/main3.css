@@ -402,3 +402,7 @@ fieldset[disabled] .btn-sample.active {
 .header-links li img.country.selected {
     max-height: 25px;
 }
+
+footer h3{
+    font-size: 27px;
+}
