@@ -222,7 +222,7 @@ body {
     margin-bottom: 10px;
     font-family: inherit;
     font-weight: 500;
-    line-height: 1.1;
+    /*line-height: 1.1;*/
 }
 
 .red-back {
@@ -340,6 +340,10 @@ fieldset[disabled] .btn-sample.active {
 
 .header-links li img.country.selected {
     max-height: 25px;
+}
+
+footer h3{
+    font-size: 27px;
 }
 
 @media (max-device-width: 1400px) {
