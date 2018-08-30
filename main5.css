@@ -504,3 +504,23 @@ footer h3{
         }
     }
 }
+
+#offerModal .modal-header{
+    background-color: rgba(226, 28, 33, 1);
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#offerModal .modal-header .modal-title{
+    font-weight: 900;
+}
+
+#offerModal .modal-header .close{
+    font-size: 30px;
+    color: white;
+}
+
+#offerModal .modal-footer{
+    border-top: 0px;
+}
